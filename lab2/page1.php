@@ -11,7 +11,6 @@ $header = "My Skills and Interests";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $title; ?></title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -86,7 +85,6 @@ $header = "My Skills and Interests";
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrM9vaJpmE8SkF8jhmbq_gEU8qGT-fhc4r9M6JZoZRjBJ3ObUsDaZDwoEt&s=10"
                     alt="Profile Picture" width="200">
                 <p>One of my favorite things to do is spend time with cats.</p>
-
             </div>
         </section>
     </main>
