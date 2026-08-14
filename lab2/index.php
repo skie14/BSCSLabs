@@ -11,7 +11,6 @@ $header = "Welcome to my Portfolio";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> <?php echo $title; ?></title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -42,35 +41,43 @@ $header = "Welcome to my Portfolio";
                 hobbies, projects, and future goals.
             </p>
 
+            <div class="about-image">
+                <img
+                    src="assets/pfp.png"
+                    alt="Profile Picture" width="200">
+            </div>
+
             <div class="socials">
                 <h2>Connect with me</h2>
 
                 <a href="https://facebook.com" target="_blank">
                     <img class="icon"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/960px-2023_Facebook_icon.svg.png"
-                        alt="Facebook">
+                        alt="Facebook"
+                        width="50"
+                        height="50">
                 </a>
 
                 <a href="https://linkedin.com" target="_blank">
                     <img class="icon"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/3840px-LinkedIn_icon.svg.png"
-                        alt="LinkedIn">
+                        alt="LinkedIn"
+                        width="50"
+                        height="50">
                 </a>
 
                 <a href="https://github.com" target="_blank">
                     <img class="icon"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/960px-Octicons-mark-github.svg.png"
-                        alt="GitHub">
+                        alt="GitHub"
+                        width="50"
+                        height="50">
                 </a>
             </div>
         </div>
 
 
-        <div class="about-image">
-            <img
-                src="assets/pfp.png"
-                alt="Profile Picture" width="200">
-        </div>
+
 
     </main>
 
