@@ -1,0 +1,21 @@
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-header {
+    background-color: lightblue;
+}
+.data2{
+    background-color: lightblue;
+}
+
+.text-color {
+    color: red;
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
